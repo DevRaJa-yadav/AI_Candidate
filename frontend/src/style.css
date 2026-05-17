@@ -1,0 +1,128 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  padding:30px;
+}
+
+.main-heading{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.card{
+  background:#1e293b;
+  padding:25px;
+  border-radius:15px;
+  margin-bottom:25px;
+  box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+input,
+textarea,
+select{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+  border:none;
+  border-radius:10px;
+  font-size:15px;
+  outline:none;
+}
+
+button{
+  margin-top:20px;
+  padding:12px 20px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.03);
+}
+
+.btn-group{
+  display:flex;
+  gap:15px;
+}
+
+.selected-skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:15px;
+}
+
+.skill-chip{
+  background:#2563eb;
+  padding:8px 14px;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.skill-chip span{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.results-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;
+}
+
+.result-card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 0 12px rgba(0,0,0,0.3);
+}
+
+.top-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.score{
+  background:#22c55e;
+  padding:8px 12px;
+  border-radius:10px;
+  font-weight:bold;
+}
+
+.empty-text{
+  text-align:center;
+  margin-top:20px;
+  opacity:0.8;
+}
+
+.ai-box{
+  background:#111827;
+  padding:25px;
+  border-radius:15px;
+  margin-bottom:25px;
+  border:2px solid #22c55e;
+}
+
+.ai-box h2{
+  margin-bottom:15px;
+  color:#22c55e;
+}
+
+.ai-box pre{
+  white-space:pre-wrap;
+  line-height:1.6;
+  font-size:15px;
+}
