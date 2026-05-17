@@ -225,7 +225,7 @@ export default function App() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/match",
+        "https://ai-candidate.onrender.com",
         {
 
           method: "POST",
@@ -282,7 +282,7 @@ export default function App() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/ai/shortlist",
+        "https://ai-candidate.onrender.com/ai/shortlist",
         {
 
           method: "POST",
